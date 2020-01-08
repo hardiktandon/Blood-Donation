@@ -1,0 +1,50 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+margin: 0;
+padding: 0;
+background: url("be.jpg");
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+border-radius:40px;
+}
+
+
+.signup{
+width: 320px;
+height:480px;
+background:rgba(0, 0, 0, 0.5);
+color:#fff;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding: 70px 30px;
+border-radius:40px;
+
+}
+.signup input[type="text"],input[type="password"]
+{
+border: none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:white;
+font-size:16px;
+border-radius:40px;
+}
+.signup input[type="button"]
+{
+border:2px solid #fff;
+width:190px;
+
+color:#000;
+font-size:16px;
+line-height:25px;
+padding:10px 0;
+border-radius:15px;
+cursor:pointer;
+border-radius:40px;
+}

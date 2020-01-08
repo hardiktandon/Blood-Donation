@@ -1,0 +1,298 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+
+	background-color: white;
+    	
+    height: 100vh;
+    background-size: cover;
+     background-position: center;
+     border-radius: 40px;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 60px;
+   border-radius: 40px;
+}
+
+ul li{
+  display: inline-block;
+   border-radius: 40px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 40px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: red;
+  color: #fff;
+
+}
+
+ul li.active a {
+  background-color: red;
+  color: #fff;
+}
+
+.logo img{
+  float:left;
+  width: 150px;
+  height: auto;
+  margin-top: 15px;
+   border-radius: 40px;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+   border-radius: 40px;
+}
+
+.button1{
+	position: absolute;
+	top: 42.5%;
+	left: 12%;
+	transform: translate(-50%,-50%);
+	 border-radius: 40px;
+}
+.button2{
+	position: absolute;
+	top: 42.5%;
+	left: 37.5%;
+	transform: translate(-50%,-50%);
+	 border-radius: 40px;
+}
+.button3{
+	position: absolute;
+	top: 42.5%;
+	left: 63%;
+	transform: translate(-50%,-50%);
+	 border-radius: 40px;
+}
+.button4{
+	position: absolute;
+	top: 42.5%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+	 border-radius: 40px;
+}
+.button5{
+	position: absolute;
+	top: 80.5%;
+	left: 12%;
+	transform: translate(-50%,-50%);
+	 border-radius: 40px;
+}
+.button6{
+	position: absolute;
+	top: 80.5%;
+	left: 37.5%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+}
+
+.button7{
+	position: absolute;
+	top: 80.5%;
+	left: 63%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+}
+
+.button8{
+	position: absolute;
+	top: 80.5%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+}
+
+.btn{
+	border: 10px white;
+	background-color: white;
+	padding: 100px 120px;
+	color: red;
+	font-size: 30px;
+
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 40px;
+}
+.btn:hover{
+	  background-color: red;
+  color: #fff;
+}
+
+.footer1{
+	position: absolute;
+	top: 120%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+}
+
+.footer1 h3{
+	color: #fff;
+	font-size: 30px;
+}
+
+.footer2{
+	position: absolute;
+	top: 120%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+}
+
+.footer2 h3{
+	color: #fff;
+	font-size: 30px;
+	border-radius: 40px;
+}
+
+.footer3{
+	position: absolute;
+	top: 120%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+}
+
+.footer3 h3{
+	color: #fff;
+	font-size: 30px;
+	border-radius: 40px;
+}
+
+.footer4{
+	position: absolute;
+	top: 120%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+		border-radius: 40px;
+}
+
+.footer4 h3{
+	color: #fff;
+	font-size: 30px;
+	border-radius: 40px;
+}
+
+.footer-content1
+{
+	position: absolute;
+	top:120%;
+	left:20%;
+	  float: left;
+  list-style-type: none;
+  margin-top: 200px;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+}
+.A a{
+		color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 40px;
+
+}
+
+.A a:hover{
+  background-color: red;
+  color: #fff;
+
+}
+
+.footer-content2
+{
+	position: absolute;
+	top:122%;
+	left:40%;
+	  float: left;
+  list-style-type: none;
+  margin-top: 200px;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+}
+.B a:hover{
+  background-color: red;
+  color: #fff;
+
+}
+
+.B a{
+		color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+.footer-content3
+{
+	position: absolute;
+	top:116%;
+	left:60%;
+	  float: left;
+  list-style-type: none;
+  margin-top: 200px;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+}
+
+.C a:hover{
+  background-color: blue;
+  color: #fff;
+
+}
+
+.C a{
+		color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 40px;
+
+
+}
+
+.footer-form{
+		position: absolute;
+	top:118%;
+	left:80%;
+	  float: left;
+  list-style-type: none;
+  margin-top: 200px;
+  transform: translate(-50%,-50%);
+ 
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px red;s
+}
+.back{
+	    width:100%;
+    height:66.67vh;
+    background:url('qwe.jpg') no-repeat center center;
+    background-size:cover;
+    overflow:hidden;
+ 
+	
+}
+
+.mid-image{
+	    width:100%;
+    height:80vh;
+    background:url('qwe2.jpg') no-repeat center center;
+    background-size:cover;
+    overflow:hidden;
+    
+}
